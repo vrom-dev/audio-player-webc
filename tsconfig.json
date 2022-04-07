@@ -18,14 +18,16 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "useDefineForClassFields": false
+    "useDefineForClassFields": false,
+    "baseUrl": "."
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "src/vite-env.d.ts"
   ],
   "references": [
     {
       "path": "./tsconfig.node.json"
     }
-  ],
+  ]
 }
